@@ -499,6 +499,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+#about .fa {
+  font-size: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+
 /* Services Section
 --------------------------------*/
 #services {
