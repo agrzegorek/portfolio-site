@@ -107,4 +107,13 @@ jQuery(document).ready(function( $ ) {
       return false;
   });
 
+  var socialIcon = $(".animateIcon");
+
+    socialIcon.mouseover(function() {
+  	   $(this).addClass('animated jello');
+     });
+    socialIcon.mouseout(function() {
+	      $(this).removeClass("animated jello")
+    });
+
 });
